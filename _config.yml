@@ -17,3 +17,4 @@ permalink: pretty
 paginate: 100
 paginate_path: "/blog/page:num"
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+destination: "/var/www/twobits.net"
