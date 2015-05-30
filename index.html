@@ -1,0 +1,24 @@
+---
+layout: page
+description: "The Cultural Significance of Free Software"
+---
+
+<p> Welcome to the online home for the book <em>Two Bits: The Cultural
+ Significance of Software</em> (Duke University Press, 2008) by
+ Christopher M. Kelty.
+  <!-- You can <a href="/download/">Download the book </a> here, read <a href="/about/">about it</a>-->
+  </p>
+<p>&nbsp;</p>
+
+
+<h4>News about Two Bits</h4>
+<hr />
+{% for post in site.posts limit:3 %}
+ <h5 class="text-muted">{{ post.date | date: "%d %B %Y" }}</h5>
+<a href="{{ post.url }}"><h5>{{ post.title }}</h5></a>
+<h6 class="text-muted" >{{ post.content |truncatehtml | truncatewords: 20}}</h6>
+
+      
+{% endfor %}
+
+

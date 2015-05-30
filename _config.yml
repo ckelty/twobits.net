@@ -1,0 +1,19 @@
+# Site settings
+title: Two Bits
+header-img: img/intro-bg.png
+email: ckelty@ucla.edu
+description: "The new website for Two Bits: The Cultural Significance of Free Software (Duke University Press, 2008).  Download the book here, or read other work related to it."
+baseurl: ""
+url: "http://twobits.net"
+twitter_username: ckelty
+github_username:  ckelty
+
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
+permalink: pretty
+#permalink: /:year/:month/:title/
+paginate: 100
+paginate_path: "/blog/page:num"
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
