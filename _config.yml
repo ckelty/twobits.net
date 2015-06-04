@@ -12,8 +12,8 @@ github_username:  ckelty
 # Build settings
 markdown: kramdown
 highlighter: pygments
-permalink: pretty
-#permalink: /:year/:month/:title/
+#permalink: pretty
+permalink: /:year/:month/:title/
 paginate: 100
 paginate_path: "/blog/page:num"
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
