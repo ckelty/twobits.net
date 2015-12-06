@@ -13,9 +13,8 @@ github_username:  ckelty
 markdown: kramdown
 highlighter: pygments
 #permalink: pretty
-<<<<<<< HEAD
 permalink: /:title/
 paginate: 100
 paginate_path: "/blog/page:num"
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
-destination: "/var/www/twobits.net"
+#destination: "/var/www/twobits.net"
